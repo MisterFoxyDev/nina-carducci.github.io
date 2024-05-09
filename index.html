@@ -171,13 +171,9 @@
         </button>
       </div>
     </div>
-    <div id="about" itemscope itemtype="http://schema.org/LocalBusiness">
+    <div id="about">
       <div class="picture left">
-        <img
-          itemprop="image"
-          src="./assets/images/nina.webp"
-          alt="portrait de Nina Carducci"
-        />
+        <img src="./assets/images/nina.webp" alt="portrait de Nina Carducci" />
       </div>
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
@@ -384,9 +380,13 @@
 
         <span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-19:00"
           >Joignable du lundi au vendredi, de 10h à 19h, au </span
-        ><a class="phone-link" href="tel:+33556677889" itemprop="telephone"
-          >05 56 67 78 89</a
+        ><span itemprop="telephone"
+          ><a class="phone-link" href="tel:+33556677889"
+            >05 56 67 78 89</a
+          ></span
         >
+        <meta itemprop="priceRange" content="50&euro;-400&euro;">
+        <meta itemprop="image" content="./assets/images/nina.webp">
       </div>
     </footer>
   </body>
